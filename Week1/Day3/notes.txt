@@ -1,0 +1,8 @@
+- Do semantics improve performance ? 
+- Tags and Elements
+- Formatting tags (italic, bold, strong, etc)
+- Layout Tags 
+- Media Tags
+- Table tags
+- Block and Inline Elements
+- Types of url

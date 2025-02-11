@@ -1,0 +1,8 @@
+- HTML
+- Is HTML a programming language ?
+- Boilerplate code and basic tags
+- Meta Tags 
+- OG Tags
+- HTML v/s HTML5
+- Increase accessibility
+- Semantic Tags

@@ -1,0 +1,13 @@
+Q. What is Internet ?
+Q. How does internet travels ?
+Q. What is IP Address ?
+Q. What is DNS ?
+Q. What is ISP ?
+Q. What happens when we type a url on our browser ?
+Q. TCP and UDP
+Q. 3-way Handshake
+Q. What is www ?
+Q. Difference btw www and internet ?
+Q. Web 1.0 v/s Web 2.0 v/s Web 3.0
+Q. If HTTP isnt secure then why it comes under TCP ?
+Q. How do we access internet in out mobile phones ?

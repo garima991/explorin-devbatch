@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment-2</title>
+  </head>
+  <body>
+    <table border="2" cellspacing="0" cellpadding="10" align="center" width="900">
+      <form action="" autocomplete="off">
+        <tr>
+          <td><label for="name" required>Fullname : </label></td>
+          <td><input type="text" id="name" autofocus/></td>
+        </tr>
+        <tr>
+          <td><label for="birthDate">BirthDate : </label></td>
+          <td><input type="date" id="birthDate" /></td>
+        </tr>
+        <tr>
+          <td><label for="address">Full Address : </label></td>
+          <td><input type="text" id="address" /></td>
+        </tr>
+        <tr>
+          <td><label for="nationality">Nationality : </label></td>
+          <td>
+            <input list="nationality" name = "nationality">
+            <datalist id="nationality">
+              <option value="Indian">
+              <option value="Other">
+          </datalist>
+        </td>
+        </tr>
+        <tr>
+          <td><label for="city">City : </label></td>
+          <td><input type="text" id="city" /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender : </label></td>
+          <td>
+            <select name="" id="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email : </label></td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr>
+          <td><label for="phoneNo">Phone Number : </label></td>
+          <td><input type="tel" id="phoneNo" /></td>
+        </tr>
+        <tr>
+          <td><label for="color">Preferred Color : </label></td>
+          <td><input type="color" id="color" /></td>
+        </tr>
+        <tr>
+          <td><label for="password">Password : </label></td>
+          <td><input type="password" id="password"  minlength="6" maxlength="24" required /></td>
+        </tr>
+        <tr>
+            <td><label for="id">ID Proof:</label></td>
+            <td><input type="file" id = "id"></td>
+        </tr>
+        <tr>
+          <td><label for="membership">Type of Membership: </label></td>
+          <td>
+            <input type="radio" name="membership" checked/> Regular (3 Month)
+            <input type="radio" name="membership" /> Gold (6 Month)
+            <input type="radio" name="membership" /> Platinum (12 Month)
+          </td>
+        </tr>
+        <tr>
+          <td><label for="comments">Comments: </label></td>
+          <td><textarea name="comments" id="comments" rows="3" cols="90"></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="checkbox" id="consent" />
+            <label for="consent">
+            By signing below, I acknowledge that I have read, understood, and
+            consent to the above checklist and the lash lift procedure.</label>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <button type="submit" />Submit</button>&nbsp; &nbsp;<input type="reset" />
+          </td>
+        </tr>
+      </form>
+    </table>
+
+    <br /><br />
+    <hr height="30" />
+  </body>
+</html>

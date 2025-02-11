@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <form action="" name="" method="" target="" autocomplete="" novalidate >
+        <label for="name">
+            Name: <input type="text" id = "name" placeholder="Enter your name"><br><br>
+        </label>
+
+        <label for="phone">
+            Phone No. <input type="number" id ="phone" name="phone"><br><br>
+        </label>
+
+        <label for="pass">
+            Password:
+            <input id ="pass" type="password" minlength="8" maxlength="24" required><br><br>
+        </label>
+        
+        <label for="email">
+            Email:  <input type="email" id = "email" autofocus><br><br>
+        </label>
+       
+        <label for="">
+            Color: <input type="color" readonly><br><br>
+        </label>
+        
+        <label for="">
+            Range: <input type="range" min="5" max="30" step="2"><br><br>
+        </label>
+        
+        <label for="">
+            Upload File: <input type="file" disabled><br><br>
+        </label>
+        
+        <input type="submit"><br><br>
+        <input type="reset"><br><br>
+
+        <fieldset>
+            <legend>Options</legend>
+            <label for="option1">
+                A.
+                <input type="checkbox" value = "yes" id = "option1" checked>
+            </label>
+             
+            <label for="option2">
+                B.
+                <input type="radio" value = "no" id = "option2"> 
+            </label>
+    
+            <br><br>
+            
+            <select name="" id="">
+                <option value="">A</option>
+                <option value="">B</option>
+                <option value="">C</option>
+            </select>
+    
+            <br><br>
+    
+            <label for="a">
+                <input type="radio" name="a"> A.
+                <input type="radio" name="a"> B.
+            </label>
+        </fieldset>
+        
+
+        
+
+
+        
+    </form>
+</body>
+</html>
