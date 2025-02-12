@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body bgcolor="" align="center">
+    <table border = "0" cellpadding="10" cellspacing="10"align="center" bgcolor="whitesmoke">
+        <thead><h2>Calculator using HTML</h2></thead>
+        <tbody>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><font size="3" color="black">Addition</font></legend>
+                        <form oninput="result.value = parseInt(num1.value) + parseInt(num2.value)">
+                            <input type="number" id="num1" title="Enter First Number" min="0" max="1000" value="0"> + 
+                            <input type="number" id="num2" title="Enter Second Number" min="0" max="1000" value="0"> = 
+                            <output id="result"></output>
+                        </form>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><font size="3" color="black">Subtraction</font></legend>
+                        <form oninput="result.value = parseInt(num1.value) - parseInt(num2.value)">
+                            <input type="number" id="num1" title="Enter First Number" min="0" max="1000" value="0"> -
+                            <input type="number" id="num2" title="Enter Second Number" min="0" max="1000" value="0"> = 
+                            <output id="result"></output>
+                        </form>
+                    </fieldset>
+                </td>
+            </tr>
+                    
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><font size="3" color="black">Multiply</font></legend>
+                        <form oninput="result.value = parseInt(num1.value) * parseInt(num2.value)">
+                            <input type="number" id="num1" title="Enter First Number" min="0" max="1000" value="0"> *
+                            <input type="number" id="num2" title="Enter Second Number" min="0" max="1000" value="0"> = 
+                            <output id="result"></output>
+                        </form>
+                    </fieldset>
+                </td>
+            </tr>
+    
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><font size="3" color="black">Divide</font></legend>
+                        <form oninput="result.value = parseInt(num1.value) / parseInt(num2.value)">
+                            <input type="number" id="num1" title="Enter First Number" min="0" max="1000" value="0"> /
+                            <input type="number" id="num2" title="Enter Second Number" min="1" max="1000" value="1"> = 
+                            <output id="result"></output>
+                        </form>
+                    </fieldset>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <fieldset>
+                        <legend><font size="3" color="black">Choose Operator</font></legend>
+                        <form oninput="result.value = eval(parseInt(num1.value) + op.value + parseInt(num2.value))">
+                            <input type="number" id="num1" title="Enter First Number" min="0" max="1000" value="0">
+                            <select name="operator" id="op">
+                                <option value="+">+</option>
+                                <option value="-">-</option>
+                                <option value="*">*</option>
+                                <option value="/">/</option>
+                            </select>
+                            <input type="number" id="num2" title="Enter Second Number" min="1" max="1000" value="1"> = 
+                            <output id="result"></output>
+                        </form>
+                    </fieldset>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+</body>
+</html>
